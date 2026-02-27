@@ -33,7 +33,7 @@ RUN pip install --no-cache-dir dhanhq==1.3.3
 RUN pip install --no-cache-dir httpx==0.27.0
 RUN pip install --no-cache-dir pandas==2.2.2
 RUN pip install --no-cache-dir numpy==1.26.4
-RUN pip install --no-cache-dir pandas-ta==0.3.14b
+RUN pip install --no-cache-dir pandas_ta==0.3.14b
 RUN pip install --no-cache-dir python-jose[cryptography]==3.3.0
 RUN pip install --no-cache-dir passlib[bcrypt]==1.7.4
 RUN pip install --no-cache-dir python-multipart==0.0.9
